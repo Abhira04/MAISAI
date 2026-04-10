@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAISAI REALTY — Luxury Real Estate</title>
+    <meta name="description"
+        content="MAISAI REALTY — Curating extraordinary living experiences through premium real estate across India's finest addresses.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ═══════════════ NAVBAR ═══════════════ -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="nav-logo">
+            <img src="logo.png" alt="Maisai Realty">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link active">HOME</a></li>
+            <li><a href="#services" class="nav-link">SERVICES</a></li>
+            <li><a href="#properties" class="nav-link">PROPERTIES</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <a href="#contact" class="nav-cta" id="nav-cta">INQUIRE NOW</a>
+    </nav>
+
+    <!-- ═══════════════ HERO SECTION ═══════════════ -->
+    <section class="hero" id="hero">
+
+        <!-- Ken Burns Background -->
+        <div class="hero-bg">
+            <img src="hero bg.png" alt="" class="hero-bg-img" aria-hidden="true">
+            <div class="hero-bg-overlay"></div>
+        </div>
+
+        <!-- LEFT PANEL — Brand Statement -->
+        <div class="hero-left">
+            <div class="hero-text-block">
+                <span class="hero-subtitle" id="hero-subtitle">We are</span>
+                <h1 class="hero-title" id="hero-title">
+                    <span class="letter" style="--i:0">M</span><span class="letter" style="--i:1">A</span><span
+                        class="letter" style="--i:2">I</span><span class="letter" style="--i:3">S</span><span
+                        class="letter" style="--i:4">A</span><span class="letter" style="--i:5">I</span>
+                </h1>
+            </div>
+            <div class="hero-cta-row" id="hero-cta-row">
+                <span class="hero-cta-line"></span>
+                <a href="#properties" class="hero-cta-text">LEARN MORE</a>
+            </div>
+
+            <!-- Social — bottom left -->
+            <div class="hero-social" id="hero-social">
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                    <span>LINKEDIN</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- RIGHT PANEL — Property Carousel -->
+        <div class="hero-right" id="properties">
+            <div class="carousel-track" id="carousel-track">
+
+                <article class="property-card" data-card="0">
+                    <div class="card-image-wrap">
+                        <img src="mahogany Tower.png" alt="Mahogany Tower" class="card-img" loading="eager">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-name">Mahogany Tower</h3>
+                        <button class="card-plus" aria-label="Explore Mahogany Tower">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="property-card" data-card="1">
+                    <div class="card-image-wrap">
+                        <img src="pheonix kesaku.png" alt="Phoenix Kessaku" class="card-img" loading="eager">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-name">Phoenix Kessaku</h3>
+                        <button class="card-plus" aria-label="Explore Phoenix Kessaku">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="property-card" data-card="2">
+                    <div class="card-image-wrap">
+                        <img src="embassy lake.png" alt="Embassy Lake" class="card-img" loading="eager">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-name">Embassy Lake</h3>
+                        <button class="card-plus" aria-label="Explore Embassy Lake">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="property-card" data-card="3">
+                    <div class="card-image-wrap">
+                        <img src="Apex Tower.png" alt="Apex Tower" class="card-img" loading="eager">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-name">Apex Tower</h3>
+                        <button class="card-plus" aria-label="Explore Apex Tower">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!-- Carousel Controls — bottom right -->
+        <div class="carousel-controls" id="carousel-controls">
+            <button class="carousel-arrow arrow-prev" id="arrow-prev" aria-label="Previous property">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6" />
+                </svg>
+            </button>
+            <button class="carousel-arrow arrow-next" id="arrow-next" aria-label="Next property">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6" />
+                </svg>
+            </button>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
